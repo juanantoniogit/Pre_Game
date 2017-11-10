@@ -1,2 +1,17 @@
 # Pre_Game
-Crear plataforma base para crear juegos Godot
+Plataforma base para crear juegos Godot
+
+
+
+Carpetas del proyecto:
+
+-Menus
+  -Creditos
+    -Imagenes
+  -Principal
+    -Imagenes
+-GamePlay
+  -2D
+  -3D
+  
+  
