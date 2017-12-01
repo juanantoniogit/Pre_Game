@@ -18,8 +18,8 @@ func _process(delta):
 	var tiempo__ = tiempo_ + delta
 	var tiempo = tiempo_ + tiempo__
 #	var velocidad = (Vector2(movimientoX) + Vector2(movimientoY)) + aceleracion *( tiempo*50)
-	print (delta)
-	print (tiempo*50)
+#	print (delta)
+#	print (tiempo*50)
 
 #func input():
 	if Input.is_action_pressed("ui_up"):

@@ -1,0 +1,18 @@
+[gd_scene load_steps=5 format=1]
+
+[ext_resource path="res://GamePlay/2D/GamePlay2D.gd" type="Script" id=1]
+[ext_resource path="res://GamePlay/2D/Player-01/Player-01.tscn" type="PackedScene" id=2]
+[ext_resource path="res://GamePlay/2D/Player-02/Player-02.tscn" type="PackedScene" id=3]
+[ext_resource path="res://GamePlay/2D/Niveles/Level-00/Level-00.tscn" type="PackedScene" id=4]
+
+[node name="GamePlay2D" type="Node2D"]
+
+script/script = ExtResource( 1 )
+
+[node name="Player-01" parent="." instance=ExtResource( 2 )]
+
+[node name="Player-02" parent="." instance=ExtResource( 3 )]
+
+[node name="Level-00" parent="." instance=ExtResource( 4 )]
+
+
