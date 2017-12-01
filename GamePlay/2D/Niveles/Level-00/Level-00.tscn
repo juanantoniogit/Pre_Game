@@ -11,10 +11,12 @@ extents = Vector2( 31.6041, 31.864 )
 
 [node name="Suelo" type="Sprite" parent="."]
 
-transform/pos = Vector2( 522.12, 582.966 )
+transform/pos = Vector2( 346.348, 482.052 )
 transform/scale = Vector2( 16.4015, 1 )
 texture = ExtResource( 1 )
-__meta__ = { "_edit_group_":true }
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Suelo"]
 

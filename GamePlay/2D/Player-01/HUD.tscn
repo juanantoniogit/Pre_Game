@@ -1,0 +1,35 @@
+[gd_scene format=1]
+
+[node name="Control" type="Control"]
+
+hint/tooltip = "Barra de vida\n"
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = 0.0
+margin/top = 0.0
+margin/right = 16.0
+margin/bottom = 16.0
+__meta__ = { "_edit_group_":true }
+
+[node name="ProgressBar" type="ProgressBar" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = 32.0
+margin/top = 32.0
+margin/right = 116.0
+margin/bottom = 48.0
+range/min = 0.0
+range/max = 100.0
+range/step = 1.0
+range/page = 0.0
+range/value = 1.0
+range/exp_edit = false
+range/rounded = false
+percent/visible = true
+
+

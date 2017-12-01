@@ -7,15 +7,19 @@
 custom_solver_bias = 0.0
 extents = Vector2( 32.0237, 31.4997 )
 
-[node name="Player-02" type="Sprite"]
+[node name="Player-02" type="Node2D"]
 
 transform/pos = Vector2( 268.506, 94.1329 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Player-02" type="Sprite" parent="."]
+
 texture = ExtResource( 1 )
-__meta__ = { "_edit_group_":true }
 
-[node name="RigidBody2D" type="RigidBody2D" parent="."]
+[node name="RigidBody2D" type="RigidBody2D" parent="Player-02"]
 
-editor/display_folded = true
 input/pickable = false
 shapes/0/shape = SubResource( 1 )
 shapes/0/transform = Matrix32( 1, 0, 0, 1, 0, 0 )
@@ -38,9 +42,8 @@ velocity/angular = 0.0
 damp_override/linear = -1.0
 damp_override/angular = -1.0
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="RigidBody2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player-02/RigidBody2D"]
 
-visibility/visible = false
 shape = SubResource( 1 )
 trigger = false
 _update_shape_index = 0
